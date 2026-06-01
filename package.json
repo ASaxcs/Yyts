@@ -1,0 +1,13 @@
+{
+  "name": "vercel-proxy",
+  "version": "1.0.0",
+  "description": "Simple rotating-IP API proxy on Vercel Edge",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
